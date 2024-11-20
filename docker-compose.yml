@@ -8,3 +8,4 @@ services:
       - "3000:80"
     environment:
       - NODE_ENV=production
+      - API_URL=http://10.1.36.90:3333
